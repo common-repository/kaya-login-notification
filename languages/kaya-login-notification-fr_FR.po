@@ -1,0 +1,432 @@
+# Translation of Plugins - Kaya Login Notification - in French (France)
+# This file is distributed under the same license as the Plugins - Kaya Login Notification - package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Kaya Login Notification\n"
+"POT-Creation-Date: 2024-01-18 17:07+0100\n"
+"PO-Revision-Date: 2024-01-18 17:07+0100\n"
+"Last-Translator: \n"
+"Language-Team: kayastudio\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;esc_attr__;esc_html__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/kayastudio-admin-page-sidebar.php:19
+#: includes/kayastudio-admin-page.php:19
+#: includes/wpkln-admin-page-sidebar.php:17 includes/wpkln-admin-page.php:17
+#: lib/class.crud_login_notification.php:47
+#: lib/class.crud_login_notification.php:104
+#: lib/class.crud_login_notification.php:120
+#: lib/class.crud_login_notification.php:140
+#: lib/class.crud_login_notification.php:164 lib/functions-database.php:22
+#: lib/functions-database.php:66 lib/functions-database.php:94
+#: lib/functions-database.php:113
+msgid "You do not have sufficient permissions."
+msgstr "Vous n'avez pas les autorisations suffisantes."
+
+#: includes/kayastudio-admin-page-sidebar.php:26
+#: includes/kayastudio-admin-page-sidebar.php:37
+msgid "Donate"
+msgstr "Faire un don"
+
+#: includes/kayastudio-admin-page-sidebar.php:29
+msgid "Support the advancement of this plugin"
+msgstr "Soutenir l'avancement de cette extension"
+
+#: includes/kayastudio-admin-page-sidebar.php:31
+msgid ""
+"You can give to support this plugin development and to encourage the "
+"developer for making open source softwares."
+msgstr ""
+"Vous pouvez donner pour soutenir le développement de cette extension et "
+"encourager le développeur à créer des logiciels open source."
+
+#: includes/kayastudio-admin-page-sidebar.php:34
+msgid "Make a donation with Paypal:"
+msgstr "Faites un don avec Paypal:"
+
+#: includes/kayastudio-admin-page-sidebar.php:40
+msgid "Make a donation with Bitcoin:"
+msgstr "Faites un don avec Bitcoin:"
+
+#: includes/kayastudio-admin-page.php:61
+msgid "WordPress plugins by Kaya Studio"
+msgstr "Extensions WordPress par Kaya Studio"
+
+#: includes/kayastudio-admin-page.php:63
+msgid ""
+"Kaya Studio is managed by a freelance web developer. These plugins are "
+"developed in his free time and for the love of making useful open source "
+"softwares."
+msgstr ""
+"Kaya Studio est géré par un développeur Web indépendant. Ces plugins sont "
+"développés pendant son temps libre et pour l'amour de créer des logiciels "
+"open source utiles."
+
+#: includes/kayastudio-admin-page.php:66
+msgid "Discover all the WordPress plugins developed by Kaya Studio."
+msgstr "Découvrez toutes les extensions WordPress développées par Kaya Studio."
+
+#: includes/kayastudio-admin-page.php:69
+msgid "All plugins by Kaya Studio"
+msgstr "Toutes les extensions de Kaya Studio"
+
+#: includes/kayastudio-admin-page.php:69
+msgid "All plugins"
+msgstr "Toutes les extensions"
+
+#: includes/wpkln-admin-page-sidebar.php:24
+msgid "Reviews"
+msgstr "Avis"
+
+#: includes/wpkln-admin-page-sidebar.php:27
+#: includes/wpkln-admin-page-sidebar.php:32 kaya-login-notification.php:156
+msgid "Rate and review this plugin at WordPress.org"
+msgstr "Notez et évaluez cette extension sur WordPress.org"
+
+#: includes/wpkln-admin-page-sidebar.php:29
+msgid ""
+"Please take the time to let me know about your experience and rate this "
+"plugin."
+msgstr ""
+"Veuillez prendre le temps de me faire part de votre expérience et de noter "
+"cette extension."
+
+#: includes/wpkln-admin-page-sidebar.php:32 kaya-login-notification.php:156
+msgid "Rate this plugin"
+msgstr "Notez cette extension"
+
+#: includes/wpkln-admin-page.php:34 lib/class.admin_dashboard_wpkln.php:51
+#: lib/class.admin_dashboard_wpkln.php:52
+msgid "Login Notification"
+msgstr "Notification de connexion"
+
+#: includes/wpkln-admin-page.php:36 lib/class.admin_dashboard_wpkln.php:70
+msgid ""
+"Sends email notification on successful login, with fully customizable "
+"settings."
+msgstr ""
+"Envoie une notification par e-mail en cas de connexion réussie, avec des "
+"paramètres entièrement personnalisables."
+
+#: includes/wpkln-admin-page.php:39
+msgid ""
+"You can choose here the email settings and users roles to be notified, the "
+"following shortcodes can be used in the email subject and content:"
+msgstr ""
+"Vous pouvez choisir ici les paramètres de messagerie et les rôles des "
+"utilisateurs à notifier, les shortcodes suivants peuvent être utilisés dans "
+"l'objet et le contenu de l'e-mail :"
+
+#: includes/wpkln-admin-page.php:44
+msgid "The site name:"
+msgstr "Le nom du site :"
+
+#: includes/wpkln-admin-page.php:48
+msgid "The site URL:"
+msgstr "L'URL du site :"
+
+#: includes/wpkln-admin-page.php:52
+msgid "The user name:"
+msgstr "L'identifiant :"
+
+#: includes/wpkln-admin-page.php:56
+msgid "The login date and hour:"
+msgstr "La date et l'heure de connexion :"
+
+#: includes/wpkln-admin-page.php:60
+msgid "The user IP address:"
+msgstr "L'adresse IP de l'utilisateur :"
+
+#: includes/wpkln-admin-page.php:64
+msgid "The user browser:"
+msgstr "Le navigateur de l'utilisateur :"
+
+#: includes/wpkln-admin-page.php:68
+msgid "The user operating system:"
+msgstr "Le système d'exploitation de l'utilisateur :"
+
+#: includes/wpkln-admin-page.php:73
+msgid "The following extra shortcode can be used in the email content:"
+msgstr ""
+"Vous pouvez utiliser les codes courts suivants dans le contenu de l'e-mail :"
+
+#: includes/wpkln-admin-page.php:77
+msgid "UTM (Urchin Tracking Module) parameters:"
+msgstr "Paramètres UTM (Urchin Tracking Module) :"
+
+#: includes/wpkln-admin-page.php:79
+msgid "Containing the list of the following elements (if available):"
+msgstr "Contenant la liste des éléments suivants (s'ils sont disponibles) :"
+
+#: includes/wpkln-admin-page.php:80
+msgid ""
+"referer, request_uri, query_string, utm_campaign, utm_medium, utm_source, "
+"utm_term, utm_content and utm_id."
+msgstr ""
+"referer, request_uri, query_string, utm_campaign, utm_medium, utm_source, "
+"utm_term, utm_content et utm_id."
+
+#: includes/wpkln-admin-page.php:84
+msgid ""
+"It is strongly recommended to send a test email via the functionality at the "
+"bottom of the page, in order to check that your settings are working "
+"correctly."
+msgstr ""
+"Il est fortement recommandé d'envoyer un mail de test via la fonctionnalité "
+"en bas de page, afin de vérifier que vos paramètres fonctionnent "
+"correctement."
+
+#: includes/wpkln-admin-page.php:88 kaya-login-notification.php:129
+#: lib/class.admin_dashboard_wpkln.php:68
+msgid "Login Notification settings"
+msgstr "Paramètres des notifications de connexion"
+
+#: includes/wpkln-admin-page.php:98
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: includes/wpkln-admin-page.php:99
+msgid "Reset settings"
+msgstr "Réinitialiser les paramètres"
+
+#: includes/wpkln-admin-page.php:100
+msgid "Do you want to delete the current settings?"
+msgstr "Voulez-vous supprimer les paramètres actuels ?"
+
+#: includes/wpkln-admin-page.php:101
+#, php-format
+msgid "%1$s - Version %2$s"
+msgstr "%1$s - Version %2$s"
+
+#: includes/wpkln-admin-page.php:141
+msgid "Sender name"
+msgstr "Nom de l'expéditeur"
+
+#: includes/wpkln-admin-page.php:145
+msgid "Sender name displayed on the mail."
+msgstr "Nom de l'expéditeur affiché sur l'e-mail."
+
+#: includes/wpkln-admin-page.php:150
+msgid "Sender address"
+msgstr "Adresse de l'expéditeur"
+
+#: includes/wpkln-admin-page.php:154
+msgid ""
+"Sender address of the email, if you are using an SMTP emailing service, "
+"enter the account email address."
+msgstr ""
+"Adresse de l'expéditeur de l'e-mail, si vous utilisez un service de "
+"messagerie SMTP, saisissez l'adresse e-mail du compte."
+
+#: includes/wpkln-admin-page.php:159
+msgid "Email subject line"
+msgstr "Sujet de l'email"
+
+#: includes/wpkln-admin-page.php:163
+msgid "You can use the following shortcodes in the subject:"
+msgstr "Vous pouvez utiliser les codes courts suivants dans le sujet :"
+
+#: includes/wpkln-admin-page.php:168
+msgid "Email content"
+msgstr "Contenu de l'email"
+
+#: includes/wpkln-admin-page.php:172
+msgid "You can use the following shortcodes in the content:"
+msgstr "Vous pouvez utiliser les codes courts suivants dans le contenu :"
+
+#: includes/wpkln-admin-page.php:177
+msgid "Email notification"
+msgstr "Notification par email"
+
+#: includes/wpkln-admin-page.php:185
+msgid "Extra emails"
+msgstr "Emails supplémentaires"
+
+#: includes/wpkln-admin-page.php:189
+msgid ""
+"Send notification to additional email addresses (separate multiple with "
+"commas)."
+msgstr ""
+"Envoyer une notification à des adresses email supplémentaires (séparer les "
+"adresses multiples par des virgules)."
+
+#: includes/wpkln-admin-page.php:194
+msgid "Whitelist IPs"
+msgstr "Liste blanche des adresses IP"
+
+#: includes/wpkln-admin-page.php:198
+msgid ""
+"Exclude notification from these IP addresses (separate multiple with "
+"commas). You can use individual IP address (like 192.168.0.1), sequential "
+"range of IP addresses (like 192.168.), and CIDR range of IP addresses (like "
+"192.168.0.1/24)."
+msgstr ""
+"Excluez les notifications de ces adresses IP (séparez les adresses multiples "
+"par des virgules). Vous pouvez utiliser une adresse IP individuelle (comme "
+"192.168.0.1), une plage séquentielle d'adresses IP (comme 192.168.) et une "
+"plage CIDR d'adresses IP (comme 192.168.0.1/24)."
+
+#: includes/wpkln-admin-page.php:218
+msgid "Login Notification email testing"
+msgstr "Test des e-mails de notification de connexion"
+
+#: includes/wpkln-admin-page.php:224
+#, php-format
+msgid ""
+"Try the email notification with the current saved settings by sending a test "
+"email at your account address (%1$s)."
+msgstr ""
+"Essayez la notification par e-mail avec les paramètres actuellement "
+"enregistrés en envoyant un e-mail de test à l'adresse de votre compte (%1$s)."
+
+#: includes/wpkln-admin-page.php:231
+msgid "Send the test email"
+msgstr "Envoyez l'e-mail de test"
+
+#: kaya-login-notification.php:129
+msgid "Settings"
+msgstr "Réglages"
+
+#: kaya-login-notification.php:130
+msgid "Other plugins by Kaya Studio"
+msgstr "Autres plugins de Kaya Studio"
+
+#: kaya-login-notification.php:130
+msgid "Other plugins"
+msgstr "Autres plugins"
+
+#: kaya-login-notification.php:157
+msgid "Donate to support the advancement of this plugin"
+msgstr "Faites un don pour soutenir l'avancement de cette extension"
+
+#: kaya-login-notification.php:157
+msgid "Donate to this plugin"
+msgstr "Faire un don à cette extension"
+
+#: lib/class.admin_dashboard_wpkln.php:187
+msgid "Sending a test email"
+msgstr "Envoi d'un e-mail de test"
+
+#: lib/class.admin_dashboard_wpkln.php:217
+msgid "Email sending test"
+msgstr "Test d'envoi d'email"
+
+#: lib/class.admin_dashboard_wpkln.php:267
+msgid "Error!"
+msgstr "Erreur !"
+
+#: lib/class.admin_dashboard_wpkln.php:273
+msgid "Success!"
+msgstr "Succès !"
+
+#: lib/class.crud_login_notification.php:56
+#, php-format
+msgid "[%1$s] New sign-in for your account %2$s from %3$s on %4$s"
+msgstr ""
+"[%1$s] Nouvelle connexion pour votre compte %2$s à partir de %3$s sur %4$s"
+
+#: lib/class.crud_login_notification.php:57
+#, php-format
+msgid ""
+"This notice has been automatically sent as a result of a successful sign-in "
+"to your administration interface on %s."
+msgstr ""
+"Cette notification a été envoyée automatiquement à la suite d'une connexion "
+"réussie à votre interface d'administration sur %s."
+
+#: lib/class.crud_login_notification.php:58
+#, php-format
+msgid "Username: %s"
+msgstr "Nom d'utilisateur : %s"
+
+#: lib/class.crud_login_notification.php:59
+#, php-format
+msgid "IP address: %s"
+msgstr "Adresse IP : %s"
+
+#: lib/class.crud_login_notification.php:60
+#, php-format
+msgid "Browser: %s"
+msgstr "Navigateur : %s"
+
+#: lib/class.crud_login_notification.php:61
+#, php-format
+msgid "Platform: %s"
+msgstr "Plate-forme : %s"
+
+#: lib/class.crud_login_notification.php:62
+#, php-format
+msgid "Date: %s"
+msgstr "Date : %s"
+
+#: lib/class.crud_login_notification.php:63
+#, php-format
+msgid ""
+"This email is intended to make you aware of the security of the services you "
+"have at <a href=\"%1$s\">%1$s</a> and to better protect them."
+msgstr ""
+"Cet e-mail est destiné à vous faire prendre conscience de la sécurité des "
+"services que vous possédez sur <a href=\"%1$s\">%1$s</a> et à mieux les "
+"protéger."
+
+#: lib/class.crud_login_notification.php:153
+msgid "Saving notification settings"
+msgstr "Enregistrement des paramètres de notification"
+
+#: lib/class.crud_login_notification.php:176
+msgid "Reset notification settings"
+msgstr "Réinitialisation des paramètres de notification"
+
+#: lib/functions-admin.php:82
+msgid "Super Admin"
+msgstr "Super Administrateur"
+
+#: lib/functions-admin.php:86
+msgid "No role"
+msgstr "Aucun rôle"
+
+#: lib/functions.php:193
+msgid "undefined"
+msgstr "indéfini"
+
+#, php-format
+#~ msgid "%1$s ( Proxy: %2$s )"
+#~ msgstr "%1$s ( Proxy : %2$s )"
+
+#~ msgid "Not allowed on all shared hosting platforms."
+#~ msgstr "Non autorisé sur toutes les plates-formes d'hébergement partagées."
+
+#~ msgid "Kaya Studio developer"
+#~ msgstr "Développeur Kaya Studio"
+
+#~ msgid "Email automatically sent after a successful login."
+#~ msgstr "Email envoyé automatiquement après une connexion réussie."
+
+#~ msgid "Administrator"
+#~ msgstr "Administrateur"
+
+#~ msgid "Editor"
+#~ msgstr "Éditeur"
+
+#~ msgid "Author"
+#~ msgstr "Auteur"
+
+#~ msgid "Contributor"
+#~ msgstr "Contributeur"
+
+#~ msgid "Subscriber"
+#~ msgstr "Abonné"
+
+#~ msgid "https://profiles.wordpress.org/kayastudio#content-plugins"
+#~ msgstr "https://profiles.wordpress.org/kayastudio#content-plugins"
+
+#~ msgid "http://kayastudio.fr"
+#~ msgstr "http://kayastudio.fr"

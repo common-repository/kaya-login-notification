@@ -1,0 +1,71 @@
+== Changelog ==
+
+= 1.6.0 =
+* Adding: Extra emails list, sends notification to additional email addresses.
+* Adding: Whitelist IPs, exclude notification from IP addresses.
+* Adding: UTM parameters shortcode (containing: referer, request_uri, query_string, utm_campaign, utm_medium, utm_source, utm_term, utm_content and utm_id).
+
+= 1.5.2 =
+* Fix: Dashboard plugin icon break.
+* Adding: Provides the client IP address behind Cloudflare server.
+
+= 1.5.1 =
+* Fix: Uncaught error of class not found when executed outside administration like cron daemon.
+
+= 1.5.0 =
+* Fix: htaccess options modified to prevent errors on some Apache configuration.
+* Adding: Plugin settings page display and management improved.
+* Adding: Login Notification email testing feature.
+
+= 1.4.0 =
+* Fix: Sender address as "Administration Email Address" by default.
+* Fix: PHP mail() parameters.
+* Adding: Mailer security filters for email and name fields, and headers sanitizer.
+* Adding: Migrate settings dedicated database table used to WordPress options.
+* Adding: Multisite compatibility, and Super Admin roles.
+
+= 1.3.0 =
+* Fix: Site name shortcode encodage.
+* Fix: Use the WP database character collate.
+* Adding: Site url information available by shortcode.
+* Adding: HTML codes availables in email content.
+* Adding: Better management of admin notices.
+* Adding: Allow users with multi roles and no role.
+
+= 1.2.0 =
+* Adding: Custom WordPress roles support.
+* Adding: Client browser information available in notification.
+* Fix: Time and date information processed with WordPress date_i18n().
+* cleaned code, better assets loadings.
+
+= 1.1.4 =
+* Fix: loading textdomain before the first setup.
+
+= 1.1.3 =
+* Readme updated.
+* Fix: textdomain access.
+* Adding: French translate.
+
+= 1.1.2 =
+* Fix: Non-static method.
+
+= 1.1.1 =
+* Fix: Load plugin text-domain.
+
+= 1.1.0 =
+* KLN is Internationalized and ready to be translated.
+
+= 1.0.2 =
+* Fix: User permissions in backoffice.
+
+= 1.0.1 =
+* Fix: warning about creating default object from empty value.
+
+= 1.0.0 =
+* KLN is ready for wordpress.org.
+
+= 0.1.1 =
+* Input/Output security improved.
+
+= 0.1.0 =
+* "Kaya Login Notification" is created.
